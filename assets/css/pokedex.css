@@ -140,21 +140,40 @@
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
-    color: #fff;
-    background-color: #6c79db;
+    color: #f0f0f0;
+    background-color: #77c850;
     border: none;
     border-radius: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
+
+    .pokemons .detail img {
+        max-width: 60%;
+    
+    }
 }
 
+@media screen and (min-width: 510px) {
+
+    .pokemons .detail img {
+        max-width: 70%;
+    
+    }
+}
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .pokemons .detail img {
+        max-width: 75%;
+    
     }
 }
 

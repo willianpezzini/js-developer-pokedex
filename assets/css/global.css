@@ -4,9 +4,19 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #f6f1f1;
 }
 
+h1 {
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f6f8fc;
+    border-radius: 1rem;
+    
+}
 .content {
     width: 100vw;
     height: 100vh;
